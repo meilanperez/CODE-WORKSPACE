@@ -1,0 +1,31 @@
+<head>NETFLIX>
+<Series>
+ <géneros>
+   <género1 "Acción"> 
+     <title>"Rick and Morty"</title>
+   </Acción>
+   <género2 "Comedia">
+     <>
+  </Comedia>
+  <género3 "Horror">
+    <>
+  </Horror>
+  <género4 "Romance">
+    <>
+  </Romance>
+  <género5 "Ciencia Ficción">
+    <>
+  </Ciencia Ficción>
+</Series>
+
+<Películas>
+<géneros>
+  <género1>
+  <género2>
+  <género3>
+</Películas>
+<Shows>
+  <géneros>
+    <género1 "Deportes">
+    <género2 "Sitcoms">
+</Shows>
