@@ -1,1 +1,3 @@
 <!ELEMENT NETFLIX (Series,Películas)>
+<!ATTLIST Series (Año,Género,Categoría)>
+<!ENTITY >
