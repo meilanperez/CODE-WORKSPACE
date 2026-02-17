@@ -1,8 +1,8 @@
-<head>NETFLIX>
-<Series>
- <géneros>
-   <género1 "Acción"> 
-     <title>"Rick and Morty"</title>
+<NETFLIX>
+ <Series>
+  <title id="Los Bridgerton">
+   <género id="Románticas"></género>
+   <año>2026</año>
    </Acción>
    <género2 "Comedia">
      <>
