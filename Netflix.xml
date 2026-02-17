@@ -1,9 +1,11 @@
 <?xml version="1.0"?>
+<!DOCTYPE NETFLIX SYSTEM "Netflix.dtd">
 <NETFLIX (Catálogo,Usuarios)>
  <Catálogo>
  <Series>
-  <Título id="Los Bridgerton", año "2026", Género "Romance", Categoría"Drama", AgeRating"+18"></Título>
+  <Título id="Los Bridgerton" año="2026" género="Romance" categoría="Drama" AgeRating="+18" Temporadas=></Título>
 </Series>
 <Películas>
- <Título id=El Botín, año "2026", género"Acción",categoría"Dramas",reparto ()></Título>
+ <Título id="El Botín" año="2026" género="Acción" categoría="Dramas" AgeRating="+16" reparto=()></Título>
+ <Título id="My Oxford Year" año="2015" género="Romance" categoría="Drama" AgeRating="+12">
 </Películas>
