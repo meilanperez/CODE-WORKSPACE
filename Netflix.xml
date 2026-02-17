@@ -2,9 +2,9 @@
 <NETFLIX (Catálogo,Usuarios)>
  <Catálogo>
  <Series>
-  <Título id="Los Bridgerton", año "2026", Género id="Romance", Categoría ""></Título>
+  <Título id="Los Bridgerton", año "2026", Género "Romance", Categoría"Drama", AgeRating"+18"></Título>
 </Series>
 <Películas>
- <Título El Botín></Título>
+ <Título id=El Botín, año "", género"",categoría"", ></Título>
 </Películas>
 
