@@ -1,11 +1,43 @@
-<?xml version="1.0"?>
+<?xml version="1.0">
 <!DOCTYPE NETFLIX SYSTEM "Netflix.dtd">
-<NETFLIX (Catálogo,Usuarios)>
- <Catálogo>
- <Series>
-  <Título id="Los Bridgerton" año="2026" género="Romance" categoría="Drama" AgeRating="+18" Temporadas=></Título>
+<NETFLIX>
+ <Catalogo>
+  <Series>
+   <Titulo id="S1" nombre="Los Bridgerton" año="2026" genero="Romance" categoria="Drama" ageRating="+18" temporadas="3">
+   <Director>Chris Van Dusen</Director>
+   <Sinopsis> Drama romántico ambientado en la alta sociedad londinense</Sinopsis>
+   <Episodios>
+    <Episodio numero="1">Diamante de la temporada</Episodio>
+   </Episodios>
+   </Titulo>
+   <Titulo id="S2" nombre="Stranger Code" año="2024" genero="Ciencia Ficcion" categoria="Suspenso" ageRating="+16" temporadas="2">
+   <Director>Ana Torres</Director>
+   <Sinopsis>Un grupo de jóvenes descubre una red secreta digital. </Sinopsis>
+   <Episodios>
+    <Episodio numero="1">El mensaje oculto</Episodio>
+   </Episodios>
+   </Titulo>
 </Series>
 <Películas>
- <Título id="El Botín" año="2026" género="Acción" categoría="Dramas" AgeRating="+16" reparto=()></Título>
- <Título id="My Oxford Year" año="2015" género="Romance" categoría="Drama" AgeRating="+12">
+ <Título id="p1" nombre="El Botin" año="2026" genero="Accion" categoria="Drama" ageRating="+16">
+  <Director>Carlos Ruiz</Director>
+  <Reparto>
+   <Actor rol="Protagonista" personaje="Miguel">Juan Perez</Actor>
+   <Actor rol="Secundario" personaje="Laura">Ana Lopez</Actor>
+  </Reparto>
+ </Titulo>
+ <Titulo id="p2" nombre="My Oxford Year" año="2015" genero="Romance" categoria="Drama" ageRating="+12">
+  <Director>Rachel Smith</Director>
+  <Reparto>
+  <Actor rol="Protagonista" personaje="Sophie">Emily Clark</Actor>
+  </Reparto>
 </Películas>
+ </Catalogo>
+<Usuarios>
+<Usuario id="U1">
+ <Nombre>Meilan</Nombre>
+ <Edad>22</Edad>
+ <Email>meilan@gmail.com</Email>
+</Usuario>
+</Usuarios>
+</NETFLIX>
