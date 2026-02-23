@@ -6,11 +6,11 @@
 <!ELEMENT Titulo (Director,Sinopsis?,Episodios?,Reparto?)>
 <!ATTLIST Titulo 
   id ID #REQUIRED
-  nombre CDATA
-  año CDATA
-  genero CDATA
-  categoria CDATA
-  ageRating CDATA
+  nombre CDATA #REQUIRED
+  año CDATA #REQUIRED
+  genero CDATA #REQUIRED
+  categoria CDATA #REQUIRED
+  ageRating CDATA #REQUIRED
   temportadas CDATA #IMPLIED
 >
 <!ELEMENT Director (#PCDATA)>
