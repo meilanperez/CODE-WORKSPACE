@@ -1,0 +1,24 @@
+<?xml version="1.0">
+<!DOCTYPE baseDatosLenguas SYSTEM "lenguas.dtd">
+<baseDatosLenguas>
+  <lengua id="es">
+    <identificacion>
+      <nombre>Español</nombre>
+</identidicacion>
+<clasificacion>
+  <familia>Indoeuropea</familia>
+</clasificacion>
+<hablantes>
+  <nativos> nº </nativos>
+</hablantes>
+</lengua>
+<lengua id="eu">
+<identificacion>
+<nombre>Euskera</nombre>
+</identificacion>
+<clasificacion>
+<familia> aislada </familia>
+<hablantes>
+<nativos> nº </nativos>
+</lengua>
+</baseDatosLenguas>
