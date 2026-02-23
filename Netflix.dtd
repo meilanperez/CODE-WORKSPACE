@@ -1,4 +1,36 @@
-<!ELEMENT NETFLIX (Series,Películas)>
-<!ATTLIST Series (Año,Género,Categoría,AgeRating)>
-<!ENTITY >
-<!ATTLIST Películas (Año,Género,Categoría,AgeRating)>
+<!ELEMENT NETFLIX (Catalogo,Usuarios)>
+<!ENTITY plataforma "Netflix España"> 
+<!ELEMENT Catalogo (Series,Peliculas)>
+<!ELEMENT Series (Titulo+)>
+<!ELEMENT Peliculas (Titulo+)>
+<!ELEMENT Titulo (Director,Sinopsis?,Episodios?,Reparto?)>
+<!ATTLIST Titulo 
+  id ID #REQUIRED
+  nombre CDATA
+  año CDATA
+  genero CDATA
+  categoria CDATA
+  ageRating CDATA
+  temportadas CDATA #IMPLIED
+>
+<!ELEMENT Director (#PCDATA)>
+<!ELEMENT Sinopsis (#PCDATA)>
+
+<!ELEMENT Episodios (Episodio+)>
+<!ELEMENT Episodio (#PCDATA)>
+<!ATTLIST Episodio 
+  numero  CDATA #REQUIRED
+  duracion  CDATA
+>
+<!ELEMENT Reparto (Actor+)>
+<!ELEMENT Actor (#PCDATA)
+<!ATTLIST Actor
+    rol (Protagonista|Secundario|Cameo) #REQUIRED 
+    personaje CDATA #REQUIRED
+>
+
+<!ELEMENT Usuarios (Usuario+)
+<!ELEMENT Usuario (Nombre, Edad, Email?)>
+<!ELEMENT Nombre (#PCDATA)>
+<!ELEMENT Edad (#PCDATA)>
+<!ELEMENT Email (#PCDATA)>
