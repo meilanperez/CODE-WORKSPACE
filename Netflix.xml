@@ -18,8 +18,8 @@
    </Episodios>
    </Titulo>
 </Series>
-<Películas>
- <Título id="p1" nombre="El Botin" año="2026" genero="Accion" categoria="Drama" ageRating="+16">
+<Peliculas>
+ <Titulo id="p1" nombre="El Botin" año="2026" genero="Accion" categoria="Drama" ageRating="+16">
   <Director>Carlos Ruiz</Director>
   <Reparto>
    <Actor rol="Protagonista" personaje="Miguel">Juan Perez</Actor>
@@ -31,7 +31,7 @@
   <Reparto>
   <Actor rol="Protagonista" personaje="Sophie">Emily Clark</Actor>
   </Reparto>
-</Películas>
+</Peliculas>
  </Catalogo>
 <Usuarios>
 <Usuario id="U1">
