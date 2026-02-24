@@ -1,41 +1,48 @@
 <?xml version="1.0">
 <!DOCTYPE baseDatosLenguas SYSTEM "lenguas.dtd">
 <baseDatosLenguas version="1.0" fechaActualizacion="24/02">
-  <lengua id="es" codigoISO639="" codigoISO3="" glottocode="">
+  <lengua id="es" codigo="ISO639-2" codigo="ISO639-3" glottocode="ISO639-3">
     <identificacion>
       <nombrePrincipal lengua="es">Español</nombrePrincipal>
-      <nombreAlternativo tipo="" lengua=""></nombreAlternativo>
+      <nombreAlternativo tipo="" lengua="">Castellano</nombreAlternativo>
       <endonimoLocal scriptOriginal="" lengua=""><endonimoLocal>
     </identidicacion>
-    <clasificacion tipo="">
-      <familia>Indoeuropea</familia>
+    <clasificacion tipo="genetica">
+      <familia>Indoeuropeo</familia>
       <subfamilia></subfamilia>
       <rama></rama>
       <grupo></grupo>
     </clasificacion>
-    <distribucionGeografica alcance=""> 
-      <pais codigoISO="" estatus="minoritaria"></pais>
-      <region tipo=""></region>
-      <coordenadas latitud="" longitud="" radio_km=""></coordenadas>
+    <distribucionGeografica alcance="mundial"> 
+      <pais codigoISO="639" estatus="oficial"></pais>
+      <region tipo="continente"></region>
+      <coordenadas latitud="Aproximadamente entre 36° y 44° Norte (Península Ibérica)" longitud="Aproximadamente entre 9° Oeste y 3° Este" radio_km=""/>
     </distribucionGeografica>
     <hablantes>
-      <nativos anioEstimacion="" fuente="" fiabilidad="estimada"></nativos>
-      <segundaLengua anioEstimacion="" fuente=""> </segundaLengua>
-      <total></total>
+      <nativos anioEstimacion="2025" fuente="Ministerio de inclusión, Seguridad Social y Migraciones" fiabilidad="estimada">500 millones</nativos>
+      <segundaLengua anioEstimacion="2022" fuente="Instituto Cervantes">920 millones</segundaLengua>
+      <total>635 millones</total>
     </hablantes>
-    <caracteristicasLinguisticas tipologiaMorfologica="" ordenBasico="" fonologia="" >
+    <caracteristicasLinguisticas>
+      <tipologiaMorfologica tipo="fusional">flexiva</tipologiaMorfologica>
+      <ordenBasico patron="SVO"></ordenBasico>
+      <fonologia>
+        <fonemas numConsonantes="" numVocales=""/>
+        <tonos numero=""/>
+        <silabas></silabas>
+      </fonologia>
+      <tonalidad esTonal="si"/>
+      <sistemas>
+        <sistema tipo="cortesia"></sistema>
+      </sistemas>
+      <estadoVitalidad nivel="" anioEvaluacion="">
+        <clasificacionUNESCO></clasificacionUNESCO>
+      </estadoVitalidad>
     </caracteristicasLinguisticas>
-    <estadoVitalidad></estadoVitalidad>
+    <estadoVitalidad>Institucional</estadoVitalidad>
     <escritura></escritura>
-    <recursosDisponibles></recursosDisponibles>
-</lengua>
-<lengua id="eu">
-<identificacion>
-<nombre>Euskera</nombre>
-</identificacion>
-<clasificacion>
-<familia> aislada </familia>
-<hablantes>
-<nativos> nº </nativos>
-</lengua>
+    <recursosDisponibles>
+    
+    </recursosDisponibles>
+  </lengua>
 </baseDatosLenguas>
