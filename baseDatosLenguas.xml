@@ -47,7 +47,7 @@
     <estadoVitalidad>Institucional</estadoVitalidad>
     <escritura></escritura>
     <recursosDisponibles>
-      <diccionario anio="" autor=""></diccionario>
+      <diccionario anio="" autor="">RAE</diccionario>
       <gramatica anio="" autor=""></gramatica>
       <corpus url="" tamano=""></corpus>
       <recursoDigital tipo="" url=""></recursoDigital>
