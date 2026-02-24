@@ -27,22 +27,30 @@
       <tipologiaMorfologica tipo="fusional">flexiva</tipologiaMorfologica>
       <ordenBasico patron="SVO"></ordenBasico>
       <fonologia>
-        <fonemas numConsonantes="" numVocales=""/>
+        <fonemas numConsonantes="22" numVocales="5"/>
         <tonos numero=""/>
         <silabas></silabas>
       </fonologia>
-      <tonalidad esTonal="si"/>
+      <tonalidad esTonal="no"/>
       <sistemas>
         <sistema tipo="cortesia"></sistema>
       </sistemas>
-      <estadoVitalidad nivel="" anioEvaluacion="">
+      <estadoVitalidad nivel="segura" anioEvaluacion="2025">
         <clasificacionUNESCO></clasificacionUNESCO>
+        <tendencia direccion="estable">
+        <observaciones></observaciones>
       </estadoVitalidad>
+      <escritura>
+        <sistema_escritura nombre="alfabético" tipo="alfabeto" uso="principal" estandarizado="si"></sistema_escritura>
+      </escritura>
     </caracteristicasLinguisticas>
     <estadoVitalidad>Institucional</estadoVitalidad>
     <escritura></escritura>
     <recursosDisponibles>
-    
+      <diccionario anio="" autor=""></diccionario>
+      <gramatica anio="" autor=""></gramatica>
+      <corpus url="" tamano=""></corpus>
+      <recursoDigital tipo="" url=""></recursoDigital>
     </recursosDisponibles>
   </lengua>
 </baseDatosLenguas>
