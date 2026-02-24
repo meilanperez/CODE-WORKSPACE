@@ -1,16 +1,33 @@
 <?xml version="1.0">
 <!DOCTYPE baseDatosLenguas SYSTEM "lenguas.dtd">
-<baseDatosLenguas>
-  <lengua id="es">
+<baseDatosLenguas version="1.0" fechaActualizacion="24/02">
+  <lengua id="es" codigoISO639="" codigoISO3="" glottocode="">
     <identificacion>
-      <nombre>Español</nombre>
-</identidicacion>
-<clasificacion>
-  <familia>Indoeuropea</familia>
-</clasificacion>
-<hablantes>
-  <nativos> nº </nativos>
-</hablantes>
+      <nombrePrincipal lengua="es">Español</nombrePrincipal>
+      <nombreAlternativo tipo="" lengua=""></nombreAlternativo>
+      <endonimoLocal scriptOriginal="" lengua=""><endonimoLocal>
+    </identidicacion>
+    <clasificacion tipo="">
+      <familia>Indoeuropea</familia>
+      <subfamilia></subfamilia>
+      <rama></rama>
+      <grupo></grupo>
+    </clasificacion>
+    <distribucionGeografica alcance=""> 
+      <pais codigoISO="" estatus="minoritaria"></pais>
+      <region tipo=""></region>
+      <coordenadas latitud="" longitud="" radio_km=""></coordenadas>
+    </distribucionGeografica>
+    <hablantes>
+      <nativos anioEstimacion="" fuente="" fiabilidad="estimada"></nativos>
+      <segundaLengua anioEstimacion="" fuente=""> </segundaLengua>
+      <total></total>
+    </hablantes>
+    <caracteristicasLinguisticas tipologiaMorfologica="" ordenBasico="" fonologia="" >
+    </caracteristicasLinguisticas>
+    <estadoVitalidad></estadoVitalidad>
+    <escritura></escritura>
+    <recursosDisponibles></recursosDisponibles>
 </lengua>
 <lengua id="eu">
 <identificacion>
