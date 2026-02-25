@@ -1,56 +1,76 @@
 <?xml version="1.0">
 <!DOCTYPE baseDatosLenguas SYSTEM "lenguas.dtd">
 <baseDatosLenguas version="1.0" fechaActualizacion="24/02">
-  <lengua id="es" codigo="ISO639-2" codigo="ISO639-3" glottocode="ISO639-3">
+  <lengua id="es" codigoISO639-2="spa" codigoISO639-3="spa" glottocode="ISO639-3">
     <identificacion>
       <nombrePrincipal lengua="es">Español</nombrePrincipal>
-      <nombreAlternativo tipo="" lengua="">Castellano</nombreAlternativo>
-      <endonimoLocal scriptOriginal="" lengua=""><endonimoLocal>
+      <nombreAlternativo tipo="sinonimo" lengua="">Castellano</nombreAlternativo>
+      <endonimoLocal scriptOriginal="Latino" lengua="es">Español<endonimoLocal>
     </identidicacion>
     <clasificacion tipo="genetica">
       <familia>Indoeuropeo</familia>
-      <subfamilia></subfamilia>
-      <rama></rama>
-      <grupo></grupo>
+      <subfamilia>Itálica</subfamilia>
+      <rama>Romance</rama>
+      <grupo>Ibero-romance occidental</grupo>
     </clasificacion>
+
     <distribucionGeografica alcance="mundial"> 
-      <pais codigoISO="639" estatus="oficial"></pais>
-      <region tipo="continente"></region>
-      <coordenadas latitud="Aproximadamente entre 36° y 44° Norte (Península Ibérica)" longitud="Aproximadamente entre 9° Oeste y 3° Este" radio_km=""/>
+      <pais codigoISO="ES" estatus="oficial"></pais>
+      <pais codigoISO="MX" estatus="oficial">México</pais>
+      <pais codigoISO="AR" estatus="oficial">Argentina</pais>
+      <pais codigoISO="CO" estatus="oficial">Colombia</pais>
+      <pais codigoISO="PE" estatus="oficial">Perú</pais>
+      <pais codigoISO="VE" estatus="oficial">Venezuela</pais>
+      <pais codigoISO="CL" estatus="oficial">Chile</pais>
+      <pais codigoISO="EC" estatus="oficial">Ecuador</pais>
+      <pais codigoISO="GT" estatus="oficial">Guatemala</pais>
+      <pais codigoISO="CU" estatus="oficial">Cuba</pais>
+      <region tipo="continente">Europa</region>
+      <region tipo="continente">América</region>
+      <region tipo="continente">África</region>
+      <coordenadaslatitud="36°N – 44°N (Península Ibérica referencia histórica)" longitud="9°O – 3°E" radio_km="Global"/>
     </distribucionGeografica>
+
     <hablantes>
-      <nativos anioEstimacion="2025" fuente="Ministerio de inclusión, Seguridad Social y Migraciones" fiabilidad="estimada">500 millones</nativos>
-      <segundaLengua anioEstimacion="2022" fuente="Instituto Cervantes">920 millones</segundaLengua>
-      <total>635 millones</total>
+      <nativos anioEstimacion="2025" fuente="Instituto Cervantes" fiabilidad="alta">500000000</nativos>
+      <segundaLengua anioEstimacion="2024" fuente="Instituto Cervantes">990000000</segundaLengua>
+      <total>599000000</total>
     </hablantes>
+
     <caracteristicasLinguisticas>
-      <tipologiaMorfologica tipo="fusional">flexiva</tipologiaMorfologica>
-      <ordenBasico patron="SVO"></ordenBasico>
+      <tipologiaMorfologica tipo="fusional">Flexiva(fusional)</tipologiaMorfologica>
+      <ordenBasico patron="SVO">Sujeto-Verbo-Objeto</ordenBasico>
+
       <fonologia>
-        <fonemas numConsonantes="22" numVocales="5"/>
-        <tonos numero=""/>
-        <silabas></silabas>
+        <fonemas numConsonantes="22-24" numVocales="5"/>
+        <tonos numero="0"/>
+        <silabas estructuraComun="(C)(C)V(C)(C)"/>
       </fonologia>
+
       <tonalidad esTonal="no"/>
+
       <sistemas>
-        <sistema tipo="cortesia"></sistema>
+        <sistema tipo="cortesia">Dintingue T/V (tú/usted, vosotros/ustedes)</sistema>
       </sistemas>
+
       <estadoVitalidad nivel="segura" anioEvaluacion="2025">
-        <clasificacionUNESCO></clasificacionUNESCO>
+        <clasificacionUNESCO>No amenazada</clasificacionUNESCO>
         <tendencia direccion="estable">
-        <observaciones></observaciones>
+        <observaciones>Lengua oficial en 20 países y con fuerte crecimiento como segunda lengua</observaciones>
       </estadoVitalidad>
+
       <escritura>
-        <sistema_escritura nombre="alfabético" tipo="alfabeto" uso="principal" estandarizado="si"></sistema_escritura>
+        <sistema_escritura nombre="Alfabeto latino" tipo="alfabeto" uso="principal" estandarizado="si">27 letras (incluye la ñ)</sistema_escritura>
       </escritura>
     </caracteristicasLinguisticas>
+
     <estadoVitalidad>Institucional</estadoVitalidad>
-    <escritura></escritura>
+
     <recursosDisponibles>
-      <diccionario anio="" autor="">RAE</diccionario>
-      <gramatica anio="" autor=""></gramatica>
-      <corpus url="" tamano=""></corpus>
-      <recursoDigital tipo="" url=""></recursoDigital>
+      <diccionario anio="2014" autor="Real Academia Española">Diccionario de la lengua española (23.ª edición)</diccionario>
+      <gramatica anio="2009" autor="Real Academia Española y ASALE">Nueva gramática de la lengua española</gramatica>
+      <corpus url="https://www.rae.es/recursos/banco-de-datos/corpes-xxi" tamano="300000000">Corpes XXI</corpus>
+      <recursoDigital tipo="Instituto cultural" url="https://www.cervantes.es">Instituto Cervantes</recursoDigital>
     </recursosDisponibles>
   </lengua>
 </baseDatosLenguas>
