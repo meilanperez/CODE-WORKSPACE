@@ -1,4 +1,4 @@
-<?xml version="1.0">
+<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE baseDatosLenguas SYSTEM "lenguas.dtd">
 <baseDatosLenguas version="1.0" fechaActualizacion="24/02">
   <lengua id="es" codigoISO639-2="spa" codigoISO639-3="spa" glottocode="ISO639-3">
