@@ -28,7 +28,9 @@
     rol (Protagonista|Secundario|Cameo) #REQUIRED 
     personaje CDATA #REQUIRED
 >
-
+<!ATTLIST Usuario
+  id ID #REQUIRED
+>
 <!ELEMENT Usuarios (Usuario+)>
 <!ELEMENT Usuario (Nombre, Edad, Email?)>
 <!ELEMENT Nombre (#PCDATA)>
