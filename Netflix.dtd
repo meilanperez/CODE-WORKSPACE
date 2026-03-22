@@ -11,7 +11,7 @@
   genero CDATA #REQUIRED
   categoria CDATA #REQUIRED
   ageRating CDATA #REQUIRED
-  temportadas CDATA #IMPLIED
+  temporadas CDATA #IMPLIED
 >
 <!ELEMENT Director (#PCDATA)>
 <!ELEMENT Sinopsis (#PCDATA)>
@@ -20,16 +20,16 @@
 <!ELEMENT Episodio (#PCDATA)>
 <!ATTLIST Episodio 
   numero  CDATA #REQUIRED
-  duracion  CDATA
+  duracion  CDATA #IMPLIED
 >
 <!ELEMENT Reparto (Actor+)>
-<!ELEMENT Actor (#PCDATA)
+<!ELEMENT Actor (#PCDATA)>
 <!ATTLIST Actor
     rol (Protagonista|Secundario|Cameo) #REQUIRED 
     personaje CDATA #REQUIRED
 >
 
-<!ELEMENT Usuarios (Usuario+)
+<!ELEMENT Usuarios (Usuario+)>
 <!ELEMENT Usuario (Nombre, Edad, Email?)>
 <!ELEMENT Nombre (#PCDATA)>
 <!ELEMENT Edad (#PCDATA)>
