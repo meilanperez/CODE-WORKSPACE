@@ -29,8 +29,9 @@
  <Titulo id="p2" nombre="My Oxford Year" año="2015" genero="Romance" categoria="Drama" ageRating="+12">
   <Director>Rachel Smith</Director>
   <Reparto>
-  <Actor rol="Protagonista" personaje="Sophie">Emily Clark</Actor>
+   <Actor rol="Protagonista" personaje="Sophie">Emily Clark</Actor>
   </Reparto>
+ </Titulo>
 </Peliculas>
  </Catalogo>
 <Usuarios>
