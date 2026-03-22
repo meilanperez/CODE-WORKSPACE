@@ -28,7 +28,7 @@
       <region tipo="continente">Europa</region>
       <region tipo="continente">América</region>
       <region tipo="continente">África</region>
-      <coordenadaslatitud="36°N – 44°N (Península Ibérica referencia histórica)" longitud="9°O – 3°E" radio_km="Global"/>
+      <coordenadas latitud="36°N – 44°N (Península Ibérica referencia histórica)" longitud="9°O – 3°E" radio_km="Global"/>
     </distribucionGeografica>
 
     <hablantes>
