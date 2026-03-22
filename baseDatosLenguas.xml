@@ -55,7 +55,7 @@
 
       <estadoVitalidad nivel="segura" anioEvaluacion="2025">
         <clasificacionUNESCO>No amenazada</clasificacionUNESCO>
-        <tendencia direccion="estable">
+        <tendencia direccion="estable"/>
         <observaciones>Lengua oficial en 20 países y con fuerte crecimiento como segunda lengua</observaciones>
       </estadoVitalidad>
 
